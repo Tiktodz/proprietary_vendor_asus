@@ -13,10 +13,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libantradio.so"],
+			srcs: ["proprietary/system/lib/libantradio.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/lib64/libantradio.so"],
+			srcs: ["proprietary/system/lib64/libantradio.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -47,7 +47,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "WfdService",
 	owner: "asus",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -182,7 +182,7 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "asus",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
