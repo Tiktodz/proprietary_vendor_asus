@@ -157,9 +157,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
+	name: "qcrilmsgtunnel",
 	owner: "asus",
-	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -169,9 +169,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "qcrilmsgtunnel",
+	name: "ims",
 	owner: "asus",
-	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
