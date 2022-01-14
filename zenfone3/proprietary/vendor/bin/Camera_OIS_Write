@@ -1,9 +1,0 @@
-#!/system/bin/sh
-
-# Created by bill_chen@asus.com
-
-echo $1 $2 > /proc/driver/ois_rw
-
-echo 1
-
-exit 0
